@@ -158,22 +158,40 @@ export const navigationItems: NavigationItem[] = [
     path: '/',
   },
   {
-    id: 'employee',
-    title: 'Employee Management',
+    id: 'employees',
+    title: 'Total Employees',
     icon: <Icons.Users />,
-    path: '/EmployeeManagement',
+    path: '/employees',
   },
   {
     id: 'attendance',
     title: 'Attendance Management',
     icon: <Icons.Calendar />,
-    path: '/attendanceManagement',
+    path: '/attendance',
+  },
+  {
+    id: 'tasks',
+    title: 'Task Management',
+    icon: <Icons.Check />,
+    path: '/tasks',
   },
   {
     id: 'payroll',
-    title: 'Payroll Management',
+    title: 'Payroll and Expenses',
     icon: <Icons.DollarSign />,
-    path: '/payroll-management',
+    path: '/payroll',
+  },
+  {
+    id: 'issues',
+    title: 'Open Issues',
+    icon: <Icons.Help />,
+    path: '/issues',
+  },
+  {
+    id: 'crm',
+    title: 'CRM',
+    icon: <Icons.Briefcase />,
+    path: '/crm',
   }
 ];
 
